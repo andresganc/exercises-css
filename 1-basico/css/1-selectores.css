@@ -1,0 +1,28 @@
+
+/* 
+SELECTOR UNIVERSAL
+-    Afecta toda la web
+*/
+* {
+    color: dimgray;
+}
+
+
+/* 
+SELECTORES DE TIPO
+    - Afecta solo los elementos
+*/
+h2 {
+    color: dodgerblue;
+}
+
+
+/* 
+LECTORES POR CLASE
+    - Se se asigna con el . y se llama con la propiedad class 
+    en la etiqueta o elemento del html. 
+*/
+
+.h3-titulo {
+    color: lightcoral;
+}
