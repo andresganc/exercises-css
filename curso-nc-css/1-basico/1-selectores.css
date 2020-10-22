@@ -1,7 +1,7 @@
 
 /* 
 SELECTOR UNIVERSAL
--    Afecta toda la web
+- Afecta toda la web - Todos los archivos
 */
 * {
     color: dimgray;
@@ -10,11 +10,17 @@ SELECTOR UNIVERSAL
 
 /* 
 SELECTORES DE TIPO
-    - Afecta solo los elementos
+- Afecta los elementos en todo el archivo - un unico archivo o archivos donde sea llamado
 */
-h2 {
-    color: dodgerblue;
-}
+
+header { color: dodgerblue; }
+
+nav { color: dodgerblue; }
+
+div { color: dodgerblue; }
+
+h2 { color: dodgerblue; }
+
 
 
 /* 
