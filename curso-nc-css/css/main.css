@@ -7,10 +7,15 @@ Principal
 /*  importacion de fuentes Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+
+/* 
+SELECTOR UNIVERSAL
+- El selector universal es el caracter asterisco *
+- El selector universal afecta toda la pagina web ( Afecta todos los archivos )
+*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;                  /* Margen del borde de un objeto hacia exterior  */
+    padding: 0;                 /* Margen del bode de un objeto hacia el interior */
     font-family: 'Poppins', sans-serif;
 }
 
