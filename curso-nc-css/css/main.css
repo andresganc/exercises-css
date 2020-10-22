@@ -1,0 +1,154 @@
+
+/* 
+MAIN.CSS
+Principal
+*/
+
+/*  importacion de fuentes Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* NAV - MENU / PRINCIPAL*/
+.nav-menu {
+    background-color: #222426;      /* Color de fondo */
+    margin: 0px;        /* Margen externa a todos los 4 lados en pixeles*/
+    padding: 20px;     /* Margen interna a los 4 lados en pixeles*/ 
+}
+
+
+.nav-menu a {
+    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
+    text-decoration: none;
+}
+
+
+.nav-menu ul {
+    display: inline-block;
+}
+
+.nav-menu li {
+    display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
+    margin: 5px;
+    padding-left: 5px;      /* Margen interna a la izquierda en pixeles*/
+    padding-right: 5px;     /* Margen interna a la derecha en pixeles */
+}
+
+
+
+/* Efecto hover */ 
+.nav-menu-hover:hover {
+    background-color: #5A6066;
+    color: #fff;
+    border-radius: 15px;
+    transition: 0.8s;             /* Transicion del efecto realizado por segundos*/
+    padding: 10px;
+    text-decoration: none;      /* Quitar lineas de decoracion de las etiquetas a*/
+}
+
+
+/* ============== MENU - NAV / LOGO ===============*/
+.menu-logo {
+    float: left;
+}
+
+
+/* ============== MENU - NAV / BUSCAR ====================*/
+.menu-buscar {
+    float: right;
+}
+
+.menu-buscar label {
+    color: rgb(187, 131, 57);
+    margin: 5px;
+}
+
+.menu-buscar input {
+    height: 35px;
+    border-radius: 5px;
+    margin: 2px;
+    color:  #222426;
+    padding: 2px;
+}
+
+.menu-buscar a {
+    width: 80px;
+    height: 33px;
+    color: #111;    
+    border-radius: 10px;
+    background: #fff;
+    margin: 2px;
+    padding-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-buscar-hover:hover {
+    color: #3D77F2;
+    transform: translateY(10%);
+    transition: 0.5s;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+
+/* ============== FOOTER ======================*/
+.footer {
+    /* background: linear-gradient(180deg, #5A6066, #222426 ); */
+    background-color: #222426;
+    margin: auto;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer img {
+    display: ce;
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.footer p {
+    color: #fff; 
+    font-size: 14px;
+}
+
+
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-a {
+    color: #fff;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-a:hover {
+    /* color: #3D77F2; */
+    color: #a4c639;
+    transition: 0.5s;
+    opacity: 0.8;
+    font-size: 15px;
+}
+

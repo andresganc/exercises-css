@@ -11,7 +11,7 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 .headerInicio  {
     background-color: #323538;
     padding-bottom: 30px;
-    background: linear-gradient(180deg, #313338, #5A6066);
+    background: linear-gradient(180deg, #222426, #5A6066);
     /* background: linear-gradient(135deg, #d41e31, #491f8f); */
 }
 
@@ -23,22 +23,22 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 }
 
 .headerInicio h1 {
-    color: lightcyan;
-    margin: 10px;
+    color:  #fff;
+    margin: 5px;
 }
 
 .headerInicio h2{
-    color: lightcyan;
+    color:  #fff;
     margin: 5px;
 }
 
 .headerInicio h3{
-    color: lightcyan;
+    color:  #fff;
     margin: 5px;
 }
 
 .headerInicio img {
-    margin: 60px;
+    margin: 40px;
 }
 
 .aButton {
@@ -55,8 +55,10 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 
 .aButton:hover {
     color: #3D77F2;
-    transform: translateY(10%);
+    transform: translateY(5%);
     transition: 0.5s;
+    opacity: 0.9;
+    font-size: 15px;
 }
 
 
@@ -100,45 +102,7 @@ article {
 }
 
 
-/* NAV */
-.nav-menu {
-    background-color: #222426;      /* Color de fondo */
-    margin: 1px;        /* Margen externa a todos los 4 lados en pixeles*/
-    padding: 0,8px;     /* Margen interna a los 4 lados en pixeles*/   
-}
 
-a:hover{
-    color: lightcyan;
-}
-
-.nav-ul {
-    display: inline-block;
-}
-
-
-.nav-li {
-    display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
-    margin: 5px;
-    padding-left: 5px;      /* Margen interna a la izquierda en pixeles*/
-    padding-right: 5px;     /* Margen interna a la derecha en pixeles */
-}
-
-.li-aside {
-    margin: 5px;
-    padding-left: 5px;      
-    padding-right: 5px;
-}
-
-.ul-buscar {
-    display: inline-block;
-}
-
-
-
-
-a {
-     color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
-}
 
 
 /* H */
@@ -188,13 +152,6 @@ a {
 }
 
 
-.footer-html {
-    background-color: #EBEDF2;
-    /* background-image: url("../img/fondo-oscuro.jpg"); */
-    float: left;
-    padding: 15px;
-    width: 95%;
-}
 
 .img-icons {
     display: inline-block;
@@ -213,48 +170,11 @@ a {
 }
 
 
-li {
-    /*
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    */
-}
-
-
-img {
-    /*
-    display: block;
-    margin: auto;
-    */
-}
 
 
 
 
 
 
-/*
-.menuCSS3 ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.menuCSS3 a {
-    display: block;
-    padding: 2em;
-    background-color: #F9B53C;
-    text-decoration: none;
-    color: #191C26;
-}
-.menuCSS3 a:hover {
-    background-color: #CC673B;
-}
-.menuCSS3 ul li ul {
-    display: none;
-}
-.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-    display: block;
-}
-*/
+
+
