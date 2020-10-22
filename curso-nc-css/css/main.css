@@ -11,7 +11,7 @@ Principal
 /* 
 SELECTOR UNIVERSAL
 - El selector universal es el caracter asterisco *
-- El selector universal afecta toda la pagina web ( Afecta todos los archivos )
+- El selector universal afecta todas las etiquetas de la pagina web donde haya sido linkeado ( Afecta todos las etiquetas )
 */
 * {
     margin: 0;                  /* Margen del borde de un objeto hacia exterior  */
@@ -19,72 +19,89 @@ SELECTOR UNIVERSAL
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* 
+SELECTOR DE TIPO
+- El selector de tipo se usa poniendo el nombre de la etiqueta
+- Afecta solo las etiquetas hechas en los archivos linkeados 
+*/
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;        /* Desplazamiento del scroll: Suave */
 }
 
 body {
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    justify-content: center;        /* Contenido justificado al centro */
+    align-items: center;            /* Objetos alineados al centro */
 }
 
 
-/* NAV - MENU / PRINCIPAL*/
-.nav-menu {
-    background-color: #222426;      /* Color de fondo */
-    margin: 0px;        /* Margen externa a todos los 4 lados en pixeles*/
-    padding: 20px;     /* Margen interna a los 4 lados en pixeles*/ 
-}
-
-
-.nav-menu a {
-    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
-    text-decoration: none;
-}
-
-
-.nav-menu ul {
-    display: inline-block;
-}
-
-.nav-menu li {
-    display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
-    margin: 5px;
-    padding-left: 5px;      /* Margen interna a la izquierda en pixeles*/
-    padding-right: 5px;     /* Margen interna a la derecha en pixeles */
-}
-
-
-
-/* Efecto hover */ 
-.nav-menu-hover:hover {
-    background-color: #5A6066;
-    color: #fff;
-    border-radius: 15px;
-    transition: 0.8s;             /* Transicion del efecto realizado por segundos*/
-    padding: 10px;
-    text-decoration: none;      /* Quitar lineas de decoracion de las etiquetas a*/
-}
-
-
-/* ============== MENU - NAV / LOGO ===============*/
+/* ============== NAV / LOGO ===============*/
 .menu-logo {
     float: left;
 }
 
 
-/* ============== MENU - NAV / BUSCAR ====================*/
-.menu-buscar {
+/* 
+SELECTOR DE CLASE
+- Los selectores de clase se crean con el caracter punto .
+- Los selectores de clase se crean y se nombran en el archivo .css y se llaman desde el archivo html
+    linkeando y referenciando desde la clase de la etiqueta
+*/
+
+/* NAV / PRINCIPAL*/
+.nav {
+    background-color: #222426;          /* Color de fondo en hexadecimal */
+    margin: 0px;                        /* Margen externa a todos los 4 lados en pixeles*/
+    padding: 20px;                      /* Margen interna a los 4 lados en pixeles*/ 
+}
+
+
+/*
+SELECTORES HIJOS
+-  Se agregan a la seleccion de clase despues de un espacio con el nombre de la etiqueta
+*/ 
+.nav ul {
+    display: inline-block;              /* Mostrar bloques en linea (A un lado) */
+}
+
+.nav li {
+    display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
+    margin: 5px;
+    padding-left: 5px;          /* Margen interna a la izquierda en pixeles*/
+    padding-right: 5px;         /* Margen interna a la derecha en pixeles */
+}
+
+.nav a {
+    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra) en RGB */
+    text-decoration: none;              /* Decaoracion de texto : Ninguno*/
+}
+
+
+/* 
+Selector Hover
+- El selector hover ocurre cuando el puntero del mouse esta sobre el objeto
+*/
+.nav-animacion:hover {
+    background-color: #5A6066;      
+    color: #fff;
+    border-radius: 15px;            /* Radio del borde 15pixeles */
+    transition: 0.8s;               /* Transicion del efecto realizado por segundos*/
+    padding: 10px;
+    text-decoration: none;          /* Quitar lineas de decoracion de las etiquetas a*/
+}
+
+
+/* ============== NAV / BUSCAR ====================*/
+.nav-buscar {
     float: right;
 }
 
-.menu-buscar label {
+.nav-buscar label {
     color: rgb(187, 131, 57);
     margin: 5px;
 }
 
-.menu-buscar input {
+.nav-buscar input {
     height: 35px;
     border-radius: 5px;
     margin: 2px;
@@ -92,7 +109,7 @@ body {
     padding: 2px;
 }
 
-.menu-buscar a {
+.nav-buscar a {
     width: 80px;
     height: 33px;
     color: #111;    
@@ -105,7 +122,7 @@ body {
     border-radius: 5px;
 }
 
-.menu-buscar-hover:hover {
+.nav-buscar-animacion:hover {
     color: #3D77F2;
     transform: translateY(10%);
     transition: 0.5s;
@@ -124,7 +141,7 @@ body {
 }
 
 .footer img {
-    display: ce;
+    display: center;
     margin: 20px;
     opacity: 0.7;
 }
@@ -134,7 +151,12 @@ body {
     font-size: 14px;
 }
 
-
+.footer a {
+    color: #fff;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
 
 .footer-div {
     display: flex;
@@ -142,18 +164,11 @@ body {
     align-items: center;
 }
 
-.footer-a {
-    color: #fff;
-    margin: 2px;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.footer-a:hover {
-    /* color: #3D77F2; */
+.footer-a-animacion:hover {
     color: #a4c639;
     transition: 0.5s;
     opacity: 0.8;
     font-size: 15px;
 }
+
 
