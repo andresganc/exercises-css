@@ -6,6 +6,12 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 
 */
 
+/* =============== CODE - DIV ================= */
+
+
+
+
+
 
 /* HEADER INICIO*/
 .headerInicio  {
@@ -57,6 +63,11 @@ aside {
     color: lightcyan;
 }
 
+a {
+    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
+}
+
+
 
 /* SECTIONS */
 .section-clara {
@@ -80,45 +91,11 @@ article {
 }
 
 
-/* NAV */
-.nav-menu {
-    background-color: #222426;      /* Color de fondo */
-    margin: 1px;        /* Margen externa a todos los 4 lados en pixeles*/
-    padding: 0,8px;     /* Margen interna a los 4 lados en pixeles*/   
-}
-
-a:hover{
-    color: lightcyan;
-}
-
-.nav-ul {
-    display: inline-block;
-}
-
-
-.nav-li {
-    display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
-    margin: 5px;
-    padding-left: 5px;      /* Margen interna a la izquierda en pixeles*/
-    padding-right: 5px;     /* Margen interna a la derecha en pixeles */
-}
-
-.li-aside {
-    margin: 5px;
-    padding-left: 5px;      
-    padding-right: 5px;
-}
-
-.ul-buscar {
-    display: inline-block;
-}
 
 
 
 
-a {
-     color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
-}
+
 
 
 /* H */
@@ -193,48 +170,4 @@ a {
 }
 
 
-li {
-    /*
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    */
-}
 
-
-img {
-    /*
-    display: block;
-    margin: auto;
-    */
-}
-
-
-
-
-
-
-/*
-.menuCSS3 ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.menuCSS3 a {
-    display: block;
-    padding: 2em;
-    background-color: #F9B53C;
-    text-decoration: none;
-    color: #191C26;
-}
-.menuCSS3 a:hover {
-    background-color: #CC673B;
-}
-.menuCSS3 ul li ul {
-    display: none;
-}
-.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-    display: block;
-}
-*/

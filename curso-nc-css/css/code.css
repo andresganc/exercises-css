@@ -1,0 +1,95 @@
+
+
+.div-code {
+    width: 85%;
+    display: table;
+    background-color: #343638;
+    /* background-color: #3C3C45; */
+    color: #fff;
+    font-size: 12px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.div-header {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+.div-body {
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+}
+
+.div-body textarea {
+    width: 90%;
+    background-color: #343638;
+    border-color: #343638;
+    color: #fff;
+    align-content: left;
+    margin: 10px;
+}
+
+.div-body h3 {
+    color: rgb(187, 131, 57);
+    font-size: 14px;
+}
+
+.div-footer {
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+}
+
+.div-footer textarea {
+    width: 90%;
+    background-color: #343638;
+    border-color: #343638;
+    color: rgb(187, 131, 57);
+    align-content: left;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.div-footer p {
+    color: rgb(187, 131, 57);
+    font-size: 13px;
+}
+
+
+
+
+
+/* ============ BUTTONS =========== */
+.button-cerrar {
+    width: 18px;
+    height: 18px;
+    background-color: #C42D56;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button-minimizar {
+    width: 18px;
+    height: 18px;
+    background-color: #C4AA41;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button-abrir {
+    width: 18px;
+    height: 18px;
+    background-color: #8EBA3D;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
