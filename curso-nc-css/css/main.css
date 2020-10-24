@@ -76,6 +76,10 @@ SELECTORES HIJOS
     text-decoration: none;              /* Decaoracion de texto : Ninguno*/
 }
 
+.nav-img {
+    vertical-align: middle;
+}
+
 
 /* 
 Selector Hover

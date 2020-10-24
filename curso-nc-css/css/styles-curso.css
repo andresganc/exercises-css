@@ -14,101 +14,154 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 
 
 /* HEADER INICIO*/
-.headerInicio  {
-    background-color: #323538;
+.header-inicio  {
     padding-bottom: 30px;
-}
+    /* background-image: url("../img/fondo-general-02.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/fondo-general-02.jpg");
+    background-repeat: round;
+    /* background: linear-gradient(180deg, #222426, #5A6066); */
+    }
 
-.headerInicio div {
+.header-inicio div {
     display: flex;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
 
-.headerInicio h1 {
-    color: lightcyan;
+.header-inicio h1 {
+    color: #fff;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+.header-inicio h2{
+    color: #fff;
+    margin: 5px;
+    opacity: 0.7;
+}
+
+.header-inicio h3{
+    color: #fff;
+    margin: 5px;
+}
+
+.header-inicio img {
+    margin: 30px;
+}
+
+
+/* ================ DIV - MAIN ================ */ 
+.div-main {
+    display: flex;
+}
+
+.div-aside {
+    width: 25%;
+    float: left;
+}
+
+.div-section {
+    width: 70%;
+    float: left;
+}
+
+.div-footer {
+    float: left;
+}
+
+
+/* ================ ASIDE ================== */
+.aside {
+    background-color: #0E0F0F;
+    width: 100%;
+    padding: 41px;   
+}
+
+.aside h3 {
+    color: #B3DDFF;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.aside img {
+    vertical-align: bottom;
+}
+
+.aside a {
+    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.aside-nav-animacion:hover {
+    color: #3388DB;
+    transition: 0.7s;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+
+
+
+/* ============== SECTIONS ================= */
+
+.section {
+    width: 100%;
+    background-color: #DFEBF7;
+}
+
+
+
+
+/* ================== ARTICLES =================== */
+.article-claro {
+    background-color: #fff;
+    width: 100%;
+    padding: 50px;
+}
+
+.article-oscuro {
+    background-color: #ECF5F7;
+    width: 100%;
+    padding: 50px;           /* Flotando a la izquierda*/ 
+}
+
+.article-div-titulo {
     margin: 10px;
 }
 
-.headerInicio h2{
-    color: lightcyan;
-    margin: 5px;
+.article-div-contenido {
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
-.headerInicio h3{
-    color: lightcyan;
-    margin: 5px;
+.article-img {
+    vertical-align: middle;
+
 }
 
-.headerInicio img {
-    margin: 60px;
-}
-
-
-/* ASIDE */
-aside {
-    background-color: #0E0F0F;
-    display: inline-block;
-    width: 30%;
-    height: 9000px;
-    float: left;            /* Flotando a la izquierda*/     
-}
-
-.aside-section {
-   display: inline-block; 
-}
-
-.aside-h3 {
-    color: lightcyan;
-}
-
-a {
-    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
-}
-
-
-
-/* SECTIONS */
-.section-clara {
-    background-color: #DFEBF7;
-    display: inline-block;
-    width: 70%;
-    float: left;            /* Flotando a la izquierda*/ 
-}
-
-.section-oscura {
-    background-color: #CAD5E0;
-    display: inline-block;
-    width: 70%;
-    float: left;            /* Flotando a la izquierda*/ 
-}
-
-
-/* ARTICLES */
-article {
-    margin: 50px;
-}
-
-
-
-
-
-
-
-
-
-/* H */
-.h2-article {
-    color: #5D57B3 ;
+.article-h3 {
+    color: #3388DB;
     margin-left: 15px;
     margin-right: 10px;
+    display: inline-block;
 }
 
+.article-h4 {
+    color: #3388DB;
+    margin-left: 13px;
+    margin-right: 10px;
+    display: inline-block;
+}
 
+.article-claro p {
+    color: #5A6066;
+}
 
-
-
+.article-oscuro p {
+    color: #5A6066;
+}
 
 .article-form {
     background-image: url("../img/contactenos.jpg");
@@ -124,41 +177,6 @@ article {
     display: inline-block;
     color: cornsilk;
 
-}
-
-
-/* DIV */
-.div-img-header {
-    margin: 20px;
-}
-
-.div-form-label {
-    display: inline-block;
-    width: 220px;
-    margin: 5px;
-}
-
-.div-form-input {
-    display: inline-block;
-    width: 400px;
-    margin: 5px;
-}
-
-
-.footer-html {
-    background-color: #EBEDF2;
-    /* background-image: url("../img/fondo-oscuro.jpg"); */
-    float: left;
-    padding: 15px;
-    width: 95%;
-}
-
-.img-icons {
-    display: inline-block;
-}
-
-.h2-article {
-    display: inline-block;
 }
 
 

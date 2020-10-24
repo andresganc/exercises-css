@@ -49,12 +49,13 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
     margin-top: 30px;               /* Margen externa: arriba */
     text-decoration: none;
     /* background: #fff; */
-    background: linear-gradient(135deg, #d41e31, #491f8f);
-    
+    /* ackground: linear-gradient(135deg, #d41e31, #491f8f); */
+    background: linear-gradient(135deg, #354EE8, #3DA7DB);    
 }
 
 .a-button:hover {
     color: #3D77F2;
+    color:   #222426;
     transform: translateY(5%);      /* Trasladar en el eje X o Y por porcentaje */
     transition: 0.5s;
     opacity: 0.9;                   /* Opacida de 0 = Oculto / 1 = Visible */
@@ -62,112 +63,15 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 }
 
 
-/* ASIDE */
-aside {
-    background-color: #0E0F0F;
-    display: inline-block;
-    width: 30%;
-    height: 9000px;
-    float: left;            /* Flotando a la izquierda*/     
-}
-
-.aside-section {
-   display: inline-block; 
-}
-
-.aside-h3 {
-    color: lightcyan;
-}
-
-
-/* SECTIONS */
-.section-clara {
-    background-color: #DFEBF7;
-    display: inline-block;
-    width: 70%;
-    float: left;            /* Flotando a la izquierda*/ 
-}
-
-.section-oscura {
-    background-color: #CAD5E0;
-    display: inline-block;
-    width: 70%;
-    float: left;            /* Flotando a la izquierda*/ 
-}
-
-
-/* ARTICLES */
-article {
-    margin: 50px;
-}
-
-
-
-
-
-/* H */
-.h2-article {
-    color: #5D57B3 ;
-    margin-left: 15px;
-    margin-right: 10px;
-}
 
 
 
 
 
 
-.article-form {
-    background-image: url("../img/contactenos.jpg");
-    background-repeat: round;
-    padding: 15px;
-}
-
-.input-form {
-    display: inline-block;
-}
-
-.label-form {
-    display: inline-block;
-    color: cornsilk;
-
-}
-
-
-/* DIV */
-.div-img-header {
-    margin: 20px;
-}
-
-.div-form-label {
-    display: inline-block;
-    width: 220px;
-    margin: 5px;
-}
-
-.div-form-input {
-    display: inline-block;
-    width: 400px;
-    margin: 5px;
-}
 
 
 
-.img-icons {
-    display: inline-block;
-}
-
-.h2-article {
-    display: inline-block;
-}
-
-
-/* P */
-.p-text-mini{
-    color: lightcyan;
-    size: 6;
-    
-}
 
 
 
