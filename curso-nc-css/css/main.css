@@ -14,7 +14,7 @@ SELECTOR UNIVERSAL
 - El selector universal afecta todas las etiquetas de la pagina web donde haya sido linkeado ( Afecta todos las etiquetas )
 */
 * {
-    margin: 0;                  /* Margen del borde de un objeto hacia exterior  */
+    margin: 0;                 /* Margen del borde de un objeto hacia exterior  */
     padding: 0;                 /* Margen del bode de un objeto hacia el interior */
     font-family: 'Poppins', sans-serif;
 }
@@ -36,8 +36,12 @@ body {
 
 
 /* ============== NAV / LOGO ===============*/
-.menu-logo {
-    float: left;
+.logo {
+    background-color: maroon;
+    display: inline-block;
+    width: 40px;
+    line-height: 0;
+    box-sizing: border-box;
 }
 
 
@@ -55,6 +59,11 @@ SELECTOR DE CLASE
     padding: 20px;                      /* Margen interna a los 4 lados en pixeles*/ 
 }
 
+.nav-div {
+   display: inline-block; 
+   line-height:0;
+   font-size: 0;
+}
 
 /*
 SELECTORES HIJOS
@@ -62,6 +71,8 @@ SELECTORES HIJOS
 */ 
 .nav ul {
     display: inline-block;              /* Mostrar bloques en linea (A un lado) */
+    margin: 0;
+    padding: 0;
 }
 
 .nav li {
@@ -74,10 +85,8 @@ SELECTORES HIJOS
 .nav a {
     color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra) en RGB */
     text-decoration: none;              /* Decaoracion de texto : Ninguno*/
-}
-
-.nav-img {
-    vertical-align: middle;
+    font-size: 14px;
+    margin-left: 0;
 }
 
 
