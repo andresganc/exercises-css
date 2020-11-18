@@ -54,12 +54,12 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 }
 
 .a-button:hover {
-    color: #3D77F2;
+    /* color: #3D77F2; */
     color:   #222426;
     transform: translateY(5%);      /* Trasladar en el eje X o Y por porcentaje */
-    transition: 0.5s;
     opacity: 0.9;                   /* Opacida de 0 = Oculto / 1 = Visible */
     font-size: 15px;                /* Tamaño de la letra */
+    transition: 0.5s;
 }
 
 

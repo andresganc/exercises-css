@@ -1,0 +1,19 @@
+
+/* Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.card {
+    background-color: #dfe8f5;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.img {
+    width: 20%;
+}
+
