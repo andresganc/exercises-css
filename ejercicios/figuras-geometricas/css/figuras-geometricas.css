@@ -1,0 +1,114 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Goldman', cursive;
+}
+
+body {
+    align-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    vertical-align: middle;
+    color: #454B4F;
+}
+
+h3 {
+    text-align: center;
+    vertical-align: middle;
+    color: #454B4F;
+}
+
+h4 {
+    text-align: center;
+    vertical-align: middle;
+    color: #454B4F;
+}
+
+.div-main {
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.div-content {
+    display: inline-block;
+}
+
+
+/* CUADRADO */
+.cuadrado {
+    display: inline-block;
+    background-color: #7983E8;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+/* RECTANGULO */
+.rectangulo {
+    display: inline-block;
+    background-color: #E3E33B;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+}
+
+/* CIRCULO */
+.circulo {
+    display: inline-block;
+    background-color: #96E654;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+/* PARALELOGRAMOS */
+.paralelogramos {
+    display: inline-block;
+    background-color: #E3447C;
+    width: 200px;
+    height: 100px;
+    transform: skew(15deg);         /* Sesgar */
+    margin: 30px;
+}
+
+/* ROMBO */
+.rombo {
+    display: inline-block;
+    background-color: #E6862E;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg) skew(5deg, 5deg) translate(-10%, -10%);  /* Rotar - Sesgar - Trasladar en eje diagonal en 2 sentidos */
+    margin: 70px 30px 30px 30px;
+}
+
+/* TRAPECIO */
+.trapecio {
+    display: inline-block;
+    width: 250px;
+    height: 0px;
+    border-bottom: 100px solid #428bca;
+    border-left: 60px solid  transparent;
+    border-right: 60px solid transparent;  
+}
+
+/* TRIANGULO */
+.triangulo {
+    display: inline-block;
+    width: 200px;
+    height: 200px; 
+    border-bottom: 150px solid #3D2C19;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    margin: 30px;
+}
+
