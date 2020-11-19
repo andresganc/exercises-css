@@ -45,70 +45,72 @@ h4 {
 
 /* CUADRADO */
 .cuadrado {
-    display: inline-block;
     background-color: #7983E8;
     width: 200px;
     height: 200px;
+    display: inline-block;
     margin: 30px;
 }
 
 /* RECTANGULO */
 .rectangulo {
-    display: inline-block;
     background-color: #E3E33B;
     width: 200px;
     height: 100px;
+    display: inline-block;
     margin: 30px;
+    transform: translateY(-60px);
 }
 
 /* CIRCULO */
 .circulo {
-    display: inline-block;
     background-color: #96E654;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    display: inline-block;
     margin: 30px;
 }
 
 /* PARALELOGRAMOS */
 .paralelogramos {
-    display: inline-block;
     background-color: #E3447C;
     width: 200px;
     height: 100px;
     transform: skew(15deg);         /* Sesgar */
+    display: inline-block;
     margin: 30px;
 }
 
 /* ROMBO */
 .rombo {
-    display: inline-block;
     background-color: #E6862E;
     width: 150px;
     height: 150px;
     transform: rotate(45deg) skew(5deg, 5deg) translate(-10%, -10%);  /* Rotar - Sesgar - Trasladar en eje diagonal en 2 sentidos */
+    display: inline-block;
     margin: 70px 30px 30px 30px;
 }
 
 /* TRAPECIO */
 .trapecio {
-    display: inline-block;
     width: 250px;
-    height: 0px;
+    height: 250px;
     border-bottom: 100px solid #428bca;
     border-left: 60px solid  transparent;
-    border-right: 60px solid transparent;  
+    border-right: 60px solid transparent;
+    display: inline-block;
+    margin: 30px;
 }
 
 /* TRIANGULO */
 .triangulo {
-    display: inline-block;
     width: 200px;
     height: 200px; 
     border-bottom: 150px solid #3D2C19;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
+    display: inline-block;
     margin: 30px;
 }
 

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.letra-css {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 30%;
+  align-content: center;
+  align-items: center;
+}
+
+.div-content {
+  display: flex;
+  margin-top: 80px;
+  align-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+/*
+.div-content:hover {
+    opacity: 0.3;
+    transform: rotateY(180deg);
+    
+}
+*/
+
+.m1 {
+  background-color: darkgreen;
+  width: 40px;
+  height: 190px;
+}
+
+.m2 {
+  background-color: crimson;
+  width: 34px;
+  height: 195px;
+  transform: rotate(-35deg) skewY(35deg) translateY(-18px) translateX(24px);
+  
+}
+
+.m3 {
+    background-color: darkgreen;
+    width: 40px;
+    height: 190px;
+    transform: translateX(125px);
+}
+
+.m4  {
+    background-color: crimson;
+    width: 34px;
+    height: 195px;
+    transform: rotate(35deg) skewY(35deg) translateY(50px) translateX(-60px) translateY(-100px) translateX(100px);
+    
+  }
