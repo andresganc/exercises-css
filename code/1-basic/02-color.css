@@ -1,0 +1,72 @@
+
+/* Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values. */
+
+
+/* CSS COLOR NAMES */
+
+/* Text color */ 
+h2 {
+    color: lightseagreen;
+}
+
+p {
+    color: lightgray;
+}
+
+/* Background color */
+.div-background-colors-01 {
+    background-color:Tomato;
+}
+
+.div-background-colors-02 {
+    background-color: dodgerblue;
+}
+
+
+/* Border colors */
+.div-border-colors-01 {
+    border: 2px orange;
+}
+
+.div-border-colors-02 {
+    border: 4px slateblue;
+}
+
+
+
+
+/* CSS COLOR VALUES */
+
+/* RGB - RED GREEN BLUE */
+.div-color-rgb {
+    background-color: rgb(200, 200, 40);
+}
+
+/* RGBA - RED GREEN BLUE ALPHA */
+.div-color-rgb-alpha {
+    background-color: rgba(255, 99, 71, 0.5);       /* RGB con Alpha - Trasparencia */
+}
+
+
+/* HEXADECIMAL */
+.div-color-hex {
+    background-color: #ff6347;
+}
+
+/* HSL (Hue, Saturation, Lightness – Matiz, Saturación, Luminosidad) */
+.div-color-hsl {
+    background-color: hsl(250, 100%, 70%);
+}
+
+/* HSLA (Hue, Saturation, Lightness – Matiz, Saturación, Luminosidad, Alpha) */
+.div-color-hsl-alpha {
+    background-color: hsl(190, 50%, 40%, 0.5);
+}
+
+
+
+
+
+
+
+

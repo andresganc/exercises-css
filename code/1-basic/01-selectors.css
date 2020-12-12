@@ -1,0 +1,68 @@
+
+/* All CSS Simple Selectors */
+
+/*
+Selector	        Example	        Example description
+
+.class	            .intro	        Selects all elements with class="intro"
+
+#id	                #firstname	    Selects the element with id="firstname"
+
+*	                *	            Selects all elements
+
+element     	    p	            Selects all <p> elements
+
+element,element,..	div, p	        Selects all <div> elements and all <p> elements
+*/
+
+/* 
+SELECTOR UNIVERSAL
+- Afecta toda la web - Todos los archivos
+*/
+* {
+    color: dimgray;
+}
+
+
+/* 
+SELECTORES DE TIPO
+- Afecta los elementos en todo el archivo - un unico archivo o archivos donde sea llamado
+*/
+header { color: dodgerblue; }
+
+nav { color: dodgerblue; }
+
+div { color: dodgerblue; }
+
+h2 { color: dodgerblue; }
+
+
+/* Agrupadas */
+h1, h2, p {
+    text-align: center;
+    color: red;
+} 
+
+
+
+
+/* 
+SELECTORES POR CLASE
+    - Se se asigna con el . y se llama con la propiedad class 
+    en la etiqueta o elemento del html. 
+*/
+.h3-titulo {
+    color: lightcoral;
+}
+
+
+
+/* 
+SELECTOR POR ID
+    - Se se asigna con el . y se llama con la propiedad class 
+    en la etiqueta o elemento del html. 
+*/
+#para1 {
+    text-align: center;
+    color: red;
+  }
