@@ -39,7 +39,7 @@ p {
 
 /* RGB - RED GREEN BLUE */
 .div-color-rgb {
-    background-color: rgb(200, 200, 40);
+    background-color: rgb(21, 154, 229);
 }
 
 /* RGBA - RED GREEN BLUE ALPHA */
@@ -50,8 +50,9 @@ p {
 
 /* HEXADECIMAL */
 .div-color-hex {
-    background-color: #ff6347;
+    background-color: #159AE5;
 }
+
 
 /* HSL (Hue, Saturation, Lightness – Matiz, Saturación, Luminosidad) */
 .div-color-hsl {
