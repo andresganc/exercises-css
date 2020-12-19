@@ -39,7 +39,7 @@ p {
 
 /* RGB - RED GREEN BLUE */
 .div-color-rgb {
-    background-color: rgb(21, 154, 229);
+    background-color: rgb(162, 189, 0)
 }
 
 /* RGBA - RED GREEN BLUE ALPHA */
@@ -50,18 +50,58 @@ p {
 
 /* HEXADECIMAL */
 .div-color-hex {
-    background-color: #159AE5;
+    background-color: #a7d1e9;
 }
 
 
 /* HSL (Hue, Saturation, Lightness – Matiz, Saturación, Luminosidad) */
 .div-color-hsl {
-    background-color: hsl(250, 100%, 70%);
+    background-color: hsl(200, 100%, 50%);
 }
 
 /* HSLA (Hue, Saturation, Lightness – Matiz, Saturación, Luminosidad, Alpha) */
 .div-color-hsl-alpha {
-    background-color: hsl(190, 50%, 40%, 0.5);
+    background-color: rgba(35, 165, 190, 0.5);
+}
+
+
+
+
+
+/* CSS Background Color */
+h1 {
+    background-color: hotpink;
+    background-color: rgb(162, 189, 0);
+    background-color: #dd5e14;
+}
+
+div {
+    background-color: lightcyan;
+}
+
+
+
+/* CSS Text Color */
+h2 {
+    color: forestgreen;
+    color: rgb(4, 189, 0);
+    color: #8D8FD6;
+    color: hsl(5, 100%, 50%)
+}
+
+div {
+    color: indigo;
+}
+
+
+
+/* CSS Border Color */
+h4 {
+    border: 1px solid teal;
+}
+
+.div-border {
+    border: 2px dotted #dd5e14
 }
 
 
