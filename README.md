@@ -1,6 +1,6 @@
-# [<img src="./readme/img/portada-css.jpg" width="600" />](https://developer.mozilla.org/es/docs/Web/CSS)
+# [<img src="./documentation/img/portada-css.jpg" width="600" />](https://developer.mozilla.org/es/docs/Web/CSS)
 
-# [<img src="./readme/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE CSS
+# [<img src="./documentation/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE CSS
     - Curso NC de CSS
 
 <br>
@@ -11,7 +11,7 @@
 
 <br><br><br>
 
-<img src='readme/img/logo-css.png' width="60px" >
+<img src='documentation/img/logo-css.png' width="60px" >
 
 ## Que es css
 
