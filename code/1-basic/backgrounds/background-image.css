@@ -1,0 +1,23 @@
+
+/* CSS Background Image - Imagen de fondo */
+
+/* Background image aplica imagenes de fondo a los elementos */
+
+body {
+    background-color: black;
+}
+
+.div-1 {
+    background-image: url("./img/marvel-logo.svg");
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 10px;
+    background-color: chocolate;
+}
+
+.div-2 {
+    background-image: url("./img/marvel-01.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 10px;
+}

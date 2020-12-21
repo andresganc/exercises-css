@@ -1,0 +1,23 @@
+
+/* CSS Backgrounds - Fondo */
+
+/* Background color es el color de fondo de cualquier elemento */
+
+body {
+    background-color: lightblue;
+}
+
+.div-1 {
+    background-color: rgb(146, 140, 212, 0.5);
+    height: 100px;
+}
+
+.div-2 {
+    background-color: tomato;
+    opacity: 0.5;
+    height: 100px;
+}
+
+h2 {
+    background-color: yellow;
+}
