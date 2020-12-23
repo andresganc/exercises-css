@@ -8,16 +8,27 @@ body {
 }
 
 .div-1 {
-    background-image: url("./img/marvel-logo.svg");
-    background-repeat: no-repeat;
     height: 400px;
     margin: 10px;
-    background-color: chocolate;
+    justify-content: center;
+    display: flex;
+}
+
+.img-header {
+    height: 400px;
 }
 
 .div-2 {
-    background-image: url("./img/marvel-01.jpg");
-    background-repeat: no-repeat;
     height: 400px;
     margin: 10px;
+}
+
+.title {
+    color: rgb(219, 1, 1);
+    text-align: center;
+}
+
+.subtitle {
+    color: #fff;
+    text-align: center;
 }

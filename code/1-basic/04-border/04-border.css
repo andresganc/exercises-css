@@ -1,0 +1,17 @@
+
+h2 {
+    border: 1px solid tomato;
+}
+
+div {
+    border: 2px dotted blueviolet;
+    height: 100px;
+}
+
+P {
+    border: 4px outset yellow;
+}
+
+a {
+    border: 3px double blue;
+}
