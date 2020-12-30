@@ -1,0 +1,24 @@
+
+/* 
+
+WIDTH: ANCHO
+
+HEIGHT: ALTO
+
+*/
+
+.div-1 {
+    width: 100px;
+    height: 100px;
+}
+
+.div-2 {
+    width: 100%;
+    height: 400px;
+}
+
+.div-3 {
+    width: 200px;
+    height: 100%;
+}
+

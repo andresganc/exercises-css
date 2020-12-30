@@ -1,0 +1,17 @@
+
+.div-principal {
+    background-color: aquamarine;
+    width: 100%;
+    height: 300px;
+}
+
+.div-1 {
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+
