@@ -1,53 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Metodologia BEM </title>
+    <title>BEM</title>
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./bem.css">
+
 </head>
+
 <body>
-    
-    <nav class="nav-principal">       <!-- Component -->
-        <li class="nav-principal__li"><a href=""> Inicio </a></li>
-        <li class="nav-principal__li"><a href=""> Bem </a></li>
-        <li class="nav-principal__li"><a href=""> Aserca </a></li>
+
+    <nav class="menu">
+        <!-- Bloque - Componente Menu -->
+        <ul class="">
+            <li class="menu__li"><a class="menu__a" href=""> Inicio </a></li>
+            <li class="menu__li"><a class="menu__a" href=""> BEM </a></li>
+            <li class="menu__li"><a class="menu__a" href=""> Acerca de</a></li>
+        </ul>
+
+
     </nav>
 
-    <header class="header">        <!-- Component -->
-        <div>
-            <h2 class="header__h2"> CSS </h2>
-            <h4 class="header__h4"> METODOLOGIA BEM </h4>
-        </div>
+    <header class="header">
+        <!-- Bloque - Componente Header-->
+        <h2 class=""> Header </h2>
     </header>
 
-    
-    <aside class="aside">     <!-- Component -->
-        <nav class="aside__nav">
-            <li class="aside__li"><a href=""></a> Que es la metodologia Bem</li>
-            <li class="aside__li"><a href=""></a> Metodologias CSS </li>
-            <li class="aside__li"><a href=""></a> Ejercicio </li>
+    <aside class="aside">
+        <!-- Bloque - Componente Aside-->
+        <h2 class=""> Aside </h2>
+
+        <nav class="">
+            <ul class="aside__ul">
+                <li class="aside__li"><a class="" href=""> Que es BEM </a></li>
+                <li class="aside__li"><a class="" href=""> Bloques </a></li>
+                <li class="aside__li"><a class="" href=""> Nombres de clase </a></li>
+            </ul>
+
         </nav>
     </aside>
-    
-    <section>       <!-- Component -->
-        <article>
-            <h2> Que es la metodologia Bem</h2>
-        </article>
-        <br>
-        <article>
-            <h2> Metodologias CSS </h2>
-            <p> BEM: </p>
-            <p> OOCSS: Separating container and content with CSS "Objects" </p>
-            <p> SMACSS: Style guide to write your CSS with five categories for CSS rules </p>
-            <p> SUITCSS: Structured class names and meaningful hyphens </p>
-            <p> Atomic: Breaking down styles into atomic, or indivisible, pieces</p>
+
+    <section class="section">
+        <!-- Bloque - Componente Section-->
+        <h2 class="section__h2"> Section</h2>
+        <article class="section__article">
+            <h3> Pasos de la metodologia BEM </h3>
+            <p> Paso 1. Crear la estructura del proyecto. </p>
+            <p> Paso 2. Identicar los bloques o componentes. </p>
+            <p> Paso 3. Nombrar los bloques o componentes estando seguros de que no tengan nombres iguales. </p>
+            <p> Paso 4. Nombrar los hijos o elementos de cada bloque empezando primero con el nombre de su madre y
+                posteriormente el propio. </p>
+            <p> Paso 5. Crear las clases y estilos en el archivo CSS. </p>
         </article>
     </section>
-    
 
+    <footer class="footer">
+        <!-- Bloque - Componente Footer-->
+        <h2 class="footer__h2"> Footer </h2>
+    </footer>
 </body>
+
 </html>
