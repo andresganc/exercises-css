@@ -1,0 +1,19 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.grid div {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.grid div {
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 5px;
+}
