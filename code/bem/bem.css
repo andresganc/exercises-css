@@ -1,6 +1,83 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+
+/* Bloque - Componente menú */
+.menu {
+    background-color: cyan;
+    padding: 15px;  
+}
+
+.menu__li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu__a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Bloque - Componente header */
+.header {
+    background-color: darksalmon;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Bloque - Componente Aside */
+.aside {
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 40px;
+    height: 800px;    /* Altura */
+    width: 30%;
+}
+
+
+/* Bloque - Componente Section */
+.section {
+    background-color: gold;
+    padding: 40px;
+    display: inline-block;
+    width: 60%;
+    height: 800px;  
+}
+
+.section__h2 {
+    text-align: center;
+}
+
+.section__article {
+    background-color: lightsteelblue;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+/* Bloque - Componente Footer */
+.footer {
+    background-color: lightblue;
+    height: 200px;
+    padding: 40px;
+}
+
+.footer__h2 {
+    text-align: center;
+}
+
 
