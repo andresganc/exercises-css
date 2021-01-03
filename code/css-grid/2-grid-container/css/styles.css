@@ -1,19 +1,29 @@
 
-.grid {
+.grid-container-1 {
     display: grid;
+    grid-template-columns: 50% 50%;
     grid-template-columns: auto auto;
 }
 
 
-.grid div {
+.grid-container-1 div {
     background-color: blueviolet;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin: 1px;
 }
 
 
-.grid div {
+.grid-container-2 {
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    grid-template-columns: auto auto auto;
+}
+
+
+.grid-container-2 div {
     background-color: chocolate;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin: 1px;
 }
