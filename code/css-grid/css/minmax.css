@@ -1,0 +1,14 @@
+
+
+.grid-container-minmax {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: minmax(100px, auto);
+    gap: 5px;
+}
+
+.grid-container-minmax div {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 5px;
+}
