@@ -1,0 +1,22 @@
+
+.grid-in-grid {
+    display: grid;
+    background-color: burlywood;
+    grid-template-columns: repeat(4, auto);
+    gap: 3px;
+    grid-template-rows: minmax(50px, auto);
+}
+
+.nested-grid {
+    display: grid;
+    background-color: darkgreen;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: 50px;
+    margin: 5px;
+}
+
+.nested-grid div {
+    background-color: darkorange;
+    margin: 5px;
+    padding: 5px;
+}
