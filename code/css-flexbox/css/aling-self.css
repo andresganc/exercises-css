@@ -1,0 +1,17 @@
+/* SECTION */  
+.section-aling-self {
+    background-color: #3E4145;
+    margin: 10px;
+    padding: 100px;
+}
+
+/* Div */
+.div-as-1 {
+    display: flex;
+    align-self: auto;
+}
+
+.div-as-2 {
+    display: flex;
+    align-self: stretch ;
+}

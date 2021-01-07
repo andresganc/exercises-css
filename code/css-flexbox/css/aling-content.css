@@ -1,0 +1,42 @@
+
+/* SECTION */
+.section-aling-content {
+    background-color: #3E4145;
+    padding: 100px;
+}
+
+
+/* ALING CONTENT */
+/* Flex-end */
+.contenedor-ac-1 {
+    display: flex;
+    align-content: flex-end;
+    flex-flow: row wrap;
+    background-color: firebrick;
+    height: 300px;
+}
+
+.div-ac-1 {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin: 10px;
+}
+
+
+/* space-between */
+.contenedor-ac-2 {
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+    background-color: darkcyan;
+    height: 300px;
+}
+
+.div-ac-2 {
+    width: 45%;
+    height: 50px;
+    background-color: chartreuse;
+    margin: 0px 10px;
+}
+

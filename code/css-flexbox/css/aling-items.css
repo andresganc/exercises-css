@@ -1,0 +1,18 @@
+
+/* SECTION */  
+.section-aling-items {
+    background-color: #3E4145;
+    margin: 10px;
+    padding: 100px;
+}
+
+/* Div */
+.div-ai-1 {
+    display: flex;
+    align-items: stretch;
+}
+
+.div-ai-2 {
+    display: flex;
+    align-items: baseline;
+}
