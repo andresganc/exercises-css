@@ -1,0 +1,109 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+  
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.nav-ul-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav__li-logo {
+  color: dodgerblue;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 800;
+  list-style: none;
+}
+
+.nav__ul-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__li-menu {
+  list-style: none;
+}
+
+.nav__a {
+  font-weight: 600;
+  color: rgb(63, 63, 63);
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__a:hover {
+  color: dodgerblue;
+}
+
+.nav__p {
+  margin: 0 10px;
+  
+}
+
+
+
+/* SECTION*/
+.section {
+  padding: 40px;
+}
+
+.section__h1 {
+  text-align: center;
+  color: black;
+  margin: 5px;
+}
+
+.section__h3 {
+  text-align: center;
+  color: black;
+}
+
+
+.section__div-1 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.section__div-img {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+
+/* DIV */
+.div__texto {
+  background-color: forestgreen;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+/* Footer */
+.footer {
+  /* background-image: url('../img/fondo.png'), no-repeat linear-gradient(90deg, rgb(242, 112, 65, 70%), rgb(232, 63,164, 70%)); */
+  background-image: url('../img/fondo.png');
+  background-repeat: no-repeat;
+  text-align: center;
+  color:floralwhite;
+  margin: 10px 5px 10px 5px;
+  padding: 100px;
+}
+
