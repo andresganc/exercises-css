@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.texto-1 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    
+    -webkit-text-fill-color: transparent;
+    background:  radial-gradient(#D96F52, #5B7BD9);
+    -webkit-background-clip: text;
+}
+
+.texto-2 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(0deg, #5861C7, #94CDF5);
+    -webkit-background-clip: text;
+}
+
+.texto-3 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+
+    -webkit-text-fill-color: transparent;
+    background:  linear-gradient(0deg, #fff, #000);
+    -webkit-background-clip: text;
+}
+
+.texto-4 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+
+    -webkit-text-fill-color: transparent;
+    background:  linear-gradient(180deg, #5861C7, #6DDE3E);
+    -webkit-background-clip: text;
+}

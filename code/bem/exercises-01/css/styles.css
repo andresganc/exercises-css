@@ -74,8 +74,6 @@
 
 
 
-
-
 /* COMPONENTE SECTION */ 
 .section {
     margin-top: 20px;
@@ -93,7 +91,8 @@
 
 .section__img {
     width: 450px;
-    margin-left: 45%;
+    /* margin-left: 45%; */
+    float: right;
 }
 
 .section__div-texto {
