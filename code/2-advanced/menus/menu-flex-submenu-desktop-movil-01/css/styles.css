@@ -1,0 +1,151 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*, *:before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9183b;
+    width: 100vw;
+    height: 7vh;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgb(0, 0, 0.6);
+}
+
+.menu__logo {
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0 40px;
+    font-weight: 600;
+}
+
+.menu__ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu__ul li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu__ul, li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff; 
+}
+
+.menu__ul li:hover, li.active {
+    background-color: rgb(0, 0, 0, 0.1);
+    transition: .4s;
+}
+
+.menu__btn {
+    margin-right: 30px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 65px;
+}
+
+
+
+/* VIEW TABLET */
+@media screen and (max-width: 768px) {
+    .menu__logo {
+        font-size: 15px;
+        padding-left: 35px;
+    }
+
+    .menu__ul li a {
+        font-size: 13px;
+    }
+}
+
+
+
+/* VIEW MOBILE */
+@media screen and (max-width: 425px) {
+    .menu {
+        height: 65px;
+    }
+
+    .menu__logo {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    .menu__ul {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% -65px);
+        background: gray;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu__ul li {
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+
+    .menu__ul li:hover {
+        background: none;
+    }
+
+    .menu__ul li a {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .menu__ul li a:hover {
+        color: #e9183b;
+    }
+
+    .menu__btn {
+        display: inline-flex;
+    }
+
+    
+}
+
+
+/* VIEW  MOBILE 558px & LANDSCAPE */
+@media screen and (max-width: 858px) and (orientation: landscape) {
+    .menu__ul {
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+    
+    .menu__ul li {
+        margin: 5px 0 0 0;
+    }
+}
+
+
