@@ -24,15 +24,26 @@ ul.show {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(145deg, #468BEB, #A460F0);
+    background: linear-gradient(170deg, #41E6D7, #468BEB, #A460F0);
+    background: linear-gradient(160deg, #60C6FC, #468BEB, #A460F0);
+    background: linear-gradient(160deg, #63DAE6, #468BEB, #A460F0);
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgb(0, 0, 0.6);
+    
 }
 
-.menu_logo {
+.menu_img-logo {
+    width: 2.2rem;
+    margin-left: 2.5rem;
+}
+
+.menu_texto-logo {
     font-size: 1.6rem;
     color: #fff;
     font-weight: 800;
-    padding: 0 1.5rem;
+    padding: 0 .5rem;
     text-transform: uppercase;
+    vertical-align: super;
 }
 
 .menu_ul {
@@ -85,10 +96,28 @@ ul.show {
 /* MENU TABLE */
 @media screen and (max-width: 768px) {
     
+    .menu_img-logo {
+        width: 2rem;
+        margin-left: 1rem;
+    }
+
+    .menu_texto-logo {
+        font-size: 1.5rem;
+        vertical-align: super;
+    }
+
     .menu_ul {
         display: flex;
         margin-right: 1rem;
     }
+
+    .menu_img-menu {
+        display: flex;
+        margin: auto;
+        width: 1.2rem;
+    }
+
+    
 }
 
 
@@ -100,27 +129,59 @@ ul.show {
         padding: .5rem;
     }
 
-    .menu_logo {
+    .menu_img-logo {
+        width: 1.6rem;
+        margin-left: 1rem;
+    }
+
+    .menu_texto-logo {
         font-size: 1.1rem;
+        vertical-align: super;
     }
 
     .menu_ul {
         position: fixed;
         flex-direction: column;
-        width: 100vw;
+        width: 95vw;
         height: calc(100% -65px);
         top: -100vh;
-        transition: all .4s;
+        transition: all .7s;
         background-color: gray;
+        border-radius: .3rem;
+        border-bottom: 1px solid #fff;
+        box-shadow: 5px 0 10px rgb(0, 0, 0.6);
+    }
 
+    .menu_li {
+        margin: .5rem 0;
+    }
+
+    .menu_li:hover {
+        background: none;
+        
+    }
+
+    .menu_a {
+        display: flex;
     }
 
     .menu_a h4 {
         font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .menu_a h4:hover {
+        transition: .2s;
+        font-weight: 600;
+        color: #FC2D42;
+        color: #F25279;
+        color: #B956FC;
+        color: #468BEB;
     }
 
     .menu_btn {
         display: inline-flex;
+        margin-right: 1rem;
     }
 }
 
