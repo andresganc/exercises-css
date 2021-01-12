@@ -33,7 +33,7 @@ ul.show {
 }
 
 .menu_img-logo {
-    width: 2.2rem;
+    width: 2.1rem;
     margin-left: 2.5rem;
 }
 
@@ -56,6 +56,7 @@ ul.show {
     margin: 0 .3rem;
     padding: 0 .8rem;
     border-radius: 0.3rem;
+    transition: .2s;
 }
 
 .menu_li:hover {
@@ -88,7 +89,36 @@ ul.show {
 }
 
 .menu_img-btn {
-    width: 2.2rem;  
+    width: 2.1rem;  
+}
+
+/* SubMenu Desktop*/
+.menu_ul-submenu {
+    display: none;
+    position: absolute;
+    top: 75px;
+    background-color: #fff;
+    border-radius: .3rem;
+    padding: 1rem;
+    list-style: none;
+    margin: .5rem 0;
+    
+}
+
+.menu_li:hover .menu_ul-submenu{
+    display: block;
+    transition: 1s;
+}
+
+.menu_li-submenu {
+    color: #53575C;
+    font-size: .9rem;
+    cursor: pointer;
+    margin: .4rem .8rem; 
+}
+
+.menu_li-submenu:hover {
+    color: #7E858C;
 }
 
 
@@ -122,7 +152,7 @@ ul.show {
 
 
 
-/* MENU MOBIL */
+/* MENU MOVIL */
 @media screen and (max-width: 425px) {
 
     .menu {
@@ -182,6 +212,19 @@ ul.show {
     .menu_btn {
         display: inline-flex;
         margin-right: 1rem;
+    }
+
+    /* SubMenu Movil*/
+    .menu_ul-submenu {
+        display: none;
+        position: absolute;
+        top: 75px;
+        right: 15px;
+        background-color: #fff;
+        border-radius: .3rem;
+        padding: 1rem;
+        list-style: none;
+        margin: .5rem 0;
     }
 }
 
