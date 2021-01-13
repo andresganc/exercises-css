@@ -1,4 +1,102 @@
 
-img {
-    filter: blur();
+ 
+/* 
+- TODOS LOS FILTROS
+
+.blur {
+  filter: blur(4px);
+}
+
+.brightness {
+  filter: brightness(0.30);
+}
+
+.contrast {
+  filter: contrast(180%);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.huerotate {
+  filter: hue-rotate(180deg);
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.opacity {
+  filter: opacity(50%);
+}
+
+.saturate {
+  filter: saturate(7%);
+}
+
+.sepia {
+  filter: sepia(100%);
+}
+
+.shadow {
+  filter: drop-shadow(8px 8px 10px green);
+}
+*/
+
+
+
+/* BLUR - DIFUMINADO */
+/* 
+filter: blur(1px);
+Se usa para hacer difuminados a imagenes o elementos y su unidad de medida es en pixeles
+*/
+.img-filter-blur {
+    filter: blur(1px);
+}
+
+
+/* BRIGHTNESS - BRILLO */
+/* 
+filter: brightness(10%);
+Se usa para aplicar brillo a imagenes o elementos y su unidad de medida es en porcentaje
+*/
+.img-filter-brightness {
+    filter: brightness(30%);
+}
+
+
+/* CONTRAST - CONTRASTE */
+/* 
+filter: contrast(10%);
+Se usa para aplicar contraste a imaganes o elementos y su unidad de medida es en porcentaje
+*/
+.img-filter-contrast {
+    filter: contrast(50%);
+}
+
+
+/* SHADOW - SOMBRA */
+/* 
+filter: drop-shadow(h-shadow v-shadow blur spread color)
+filter: drop-shadow(8px 8px 1px 10px gray);
+Se usa para aplicar sombras a imaganes o elementos y su unidad de medida es pixeles y color
+h-shadow: Sombra horizontal
+v-shadow: Sombra vertical
+blur: Difuminado
+Spread: Expansion de la sombra
+Color
+*/
+.img-filter-drop-shadow {
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+
+/* SEPIA */
+/* 
+filter: sepia(10%)
+Se usa para aplicar un efecto sepia a las imagenes y su unidad de medida es en porcentaje
+*/
+.img-filter-sepia {
+    filter: sepia(95%);
 }
