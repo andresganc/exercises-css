@@ -1,0 +1,89 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+/* HEADER */
+.header {
+    background-image: url(../img/fondo.jpg);
+    /* filter: blur(1px); */
+    padding: 60px;
+    margin: 10px;
+}
+
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+
+.nav__li {
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    list-style: none;   
+}
+
+.nav__ul-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav__a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+}
+
+
+/* Div */
+.div {
+    margin-bottom: 20px;
+}
+
+.div__bloque {
+    margin-bottom: 20px;
+}
+
+.div__h1 {
+    color: white;
+}
+
+.div__text {
+    margin-top: 10px;
+}
+
+.div__text h5 {
+    color: white;
+    margin: 5px 0;
+}
+
+
+/* Button */
+.button__enviar {
+    background: linear-gradient(100deg, #3F25FA, #9C19FA);
+    background-color: blue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button__cancelar {
+    background: linear-gradient(270deg, #9C19FA,  #3F25FA);
+    background-color: blueviolet;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+}
+    
