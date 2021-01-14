@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+/* MENU - DESKTOP */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    height: 75px;
+}
+
+.nav_logo {
+    display: flex;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.nav_menu {
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav_li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav_a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_btn {
+    display: none;
+}
+
+.nav_img-btn {
+    width: 35px;
+}
+
+
+/* MENU - TABLET */
+@media screen and (max-width: 768px) {
+    .nav_logo {
+        font-size: 14px;
+    }
+}
+
+
+/* MENU - MOBILE */
+@media screen and (max-width: 425px) {
+
+    ul.show {
+        top: 10vh;
+    }
+    
+    .nav_menu {
+        position: fixed;
+        flex-direction: column;
+        top: -100vh;
+        width: 100vw;
+        background-color: #635F61;
+        padding: 20px;
+        transition: .5s;
+    }
+
+    .nav_li {
+        margin: 5px 0;
+    }
+
+    .nav_a {
+        font-size: 17px;
+    }
+
+    .nav_a:hover {
+        color: dodgerblue;
+    }
+
+    .nav_img-btn {
+        margin-right: 20px;
+    }
+
+    .nav_btn {
+        display: inline-flex;
+    }
+}

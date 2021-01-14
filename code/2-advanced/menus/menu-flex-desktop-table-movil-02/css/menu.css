@@ -17,6 +17,7 @@ body {
 
 
 
+
 /* MENU */
 .menu {
     display: flex;
@@ -68,9 +69,7 @@ body {
     display: none;
 }
 
-ul.show {
-    top: 65px;
-}
+
 
 
 
@@ -89,6 +88,10 @@ ul.show {
 
 
 /* VIEW MOBILE */
+ul.show {
+    top: 65px;
+}
+
 @media screen and (max-width: 425px) {
     .menu {
         height: 65px;
@@ -101,13 +104,14 @@ ul.show {
 
     .menu__ul {
         position: fixed;
+        flex-direction: column;
         width: 100vw;
         height: calc(100% -65px);
         background: gray;
         top: -100vh;
         text-align: center;
         transition: all .4s;
-        flex-direction: column;
+        
     }
 
     .menu__ul li {
@@ -132,7 +136,6 @@ ul.show {
         display: inline-flex;
     }
 
-    
 }
 
 

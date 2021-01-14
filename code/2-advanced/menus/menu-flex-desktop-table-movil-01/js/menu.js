@@ -1,11 +1,11 @@
 
 addEventListener('DOMContentLoaded', () => {
-    const menu__btn = document.querySelector('.menu__btn')
+    const nav_btn = document.querySelector('.nav_btn')
 
-    if (menu__btn) {
-        menu__btn.addEventListener('click', () => {
-            const menu__ul = document.querySelector('.menu__ul');
-            menu__ul.classList.toggle('show')
+    if (nav_btn) {
+        nav_btn.addEventListener('click', () => {
+            const nav_menu = document.querySelector('.nav_menu');
+            nav_menu.classList.toggle('show')
         })
     }
 })

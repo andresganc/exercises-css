@@ -42,17 +42,3 @@ body {
     text-decoration: none;
     color: #fff;
 }
-
-
-/* MENU - TABLET */
-@media screen and (max-width: 768px) {
-    .nav_logo {
-        font-size: 14px;
-    }
-}
-
-
-/* MENU - MOBILE */
-@media screen and (max-width: 425px) {
-
-}
