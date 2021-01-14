@@ -4,12 +4,14 @@
     padding: 0;
 }
 
+/* GRID-TEMPLATE-COLUMNS */
 /* DIV CONTAINER 1 */
 .div-container-1 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-columns: auto auto;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .div-container-1 div {
@@ -41,11 +43,28 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-columns: auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .div-container-3 div {
     width: 100%;
     height: 50px;
     background-color: crimson;
+    border-radius: 20px;
+}
+
+
+
+/* GRID-TEMPLATE-ROWS */
+
+.div-container-4 {
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.div-container-4 div {
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
     border-radius: 20px;
 }

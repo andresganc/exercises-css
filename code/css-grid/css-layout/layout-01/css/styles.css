@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+.header {
+    display: grid;
+    background-color: lightcyan;
+    width: 100vw;
+    height: 500px;
+}
+
+
+/* NAV LOGO LOGIN */
+.nav-logo-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ll_ul-logo {
+    display: flex;
+}
+
+.nav-ll_ul-login {
+    display: flex;
+}
+
+
+/* NAV MENU */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu_ul-menu {
+    display: flex;
+    
+}
+
+
+
+/* SECTION */
+.section {
+    display: grid;
+    background-color: lightgreen;
+}
+
+.section_titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.section_grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section_grid div {
+    width: 300px;
+    height: 350px;
+    background-color: tomato;
+    border-radius: 10px;
+}
