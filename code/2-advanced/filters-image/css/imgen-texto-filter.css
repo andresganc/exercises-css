@@ -1,19 +1,37 @@
 
 .header {
-    display: grid;
+    display: grid;  
     justify-content: center;
-    background-image: url('../img/fondo-01.jpg');
+}
+
+.header::before {
     width: 100%;
-    height: 600px;
+    height: 700px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/fondo-01.jpg);
+    content: "";
+    filter: blur(1px) brightness(30%) sepia(100%);
+}
+
+.header__div-img {
+    position: relative;
 }
 
 .header__img {
     width: 150px;
 }
 
-.header-textos {
-
+.header__div-textos {
+    position: relative;
 }
+
+.header__div-button {
+    position: relative;
+}
+
 
 h1 {
     color: #fff;
