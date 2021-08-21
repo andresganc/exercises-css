@@ -1,0 +1,103 @@
+
+
+/* ============= CIRCLE 1 ============= */
+.circle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    animation-name: circle1;
+    animation-duration: 4s;
+}
+
+@keyframes circle1 {
+    from {
+        margin-left: 100%;
+        width: 100px; 
+    }
+
+    to {
+        margin-left: 0%;
+        width: 200px;
+    }
+}
+
+
+/* ============= CIRCLE 2 ============= */
+.circle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F50057;
+    animation-name: circle2;
+    animation-duration: 4s;
+}
+
+@keyframes circle2 {
+    0% {
+        margin-left: 100%;
+        width: 100px; 
+    }
+
+    50% {
+        margin-left: 50%;
+        width: 200px;
+    }
+
+    100% {
+        margin-left: 0%;
+        width: 50px; 
+    }   
+}
+
+
+/* ============= CIRCLE 3 ============= */
+.container-circle3 {
+    height: 200px;
+}
+
+.circle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #26A69A;
+    animation-name: circle3;
+    animation-duration: 5s;
+}
+
+@keyframes circle3 {
+    0% {
+        margin-top: 0%;
+        width: 100px; 
+    }
+
+    10% {
+        margin-top: 5%;
+        width: 100px;
+    }
+
+    20% {
+        margin-top: 10%;
+        width: 100px; 
+    }  
+
+    30% {
+        margin-top: 15%;
+        width: 100px; 
+    }   
+}
+
+
+/* ============= CSS INFO ============== */
+.div-title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .div-text {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    justify-content: center;
+  }

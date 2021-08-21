@@ -27,7 +27,6 @@ animation-delay: unset;
   height: 100px;
   cursor: pointer;
   animation-delay: 1s;
-
   animation-name: rotate;
   animation-duration: 2s;
 }
