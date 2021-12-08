@@ -1,0 +1,23 @@
+
+/* 
+    OPACITY
+
+    Max value: 1
+    Min value: 0
+*/
+
+div {
+    opacity: 0.5;
+  }
+
+  div.first {
+    opacity: 0.1;
+  }
+  
+  div.second {
+    opacity: 0.3;
+  }
+  
+  div.third {
+    opacity: 0.6;
+  }
