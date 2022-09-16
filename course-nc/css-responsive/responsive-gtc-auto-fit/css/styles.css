@@ -1,0 +1,42 @@
+
+h3 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h4 {
+    text-align: center;
+    color: #F5F5F5;
+}
+
+h5 {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+h6 {
+    text-align: center;
+    color: #E0E0E0;
+}
+
+p {
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.header {
+    background-color: #424242;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.6rem, 1fr));
+    gap: 1rem;
+    background-color: #EEEEEE;
+}
+
+.article__card {
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #673AB7;
+}
